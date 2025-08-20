@@ -95,13 +95,15 @@ header {
 }
 
 main {
+    display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
     margin: auto;
     padding: 0px 40px 40px 40px;
-    background-image: url(../IMAGENES/pokemon-unite_3840x2160_xtrafondos.com.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../IMAGENES/pokemon_Patron.svg);
+    background-repeat: inherit;
+    background-size: contain;
 
     background-color: rgba(126, 126, 126, 0.638);
     background-blend-mode: darken; /* o multiply, overlay según efecto */
@@ -113,7 +115,8 @@ main {
     justify-items: center;
     width: 360px;
     height: 506px;
-    margin-left: 37%;
+    margin-left:5%;
+    margin-bottom: 2%;
     padding: auto;
     border-radius: 10%;
     background-image: url(../IMAGENES/electric.png);
