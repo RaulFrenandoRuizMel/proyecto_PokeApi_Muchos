@@ -1,0 +1,65 @@
+footer{
+    background-color: #832727;
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    bottom: auto;
+    display: block;
+    line-height: 200%;
+
+    
+}
+
+.foot1{
+    width: 25%;
+    margin-left: 2%;
+    display: inline-block;
+    height: auto;
+    line-height: 100%;
+
+}
+
+.foot1 a{
+    display: block;
+    line-height: 100%;
+    font-size: 20px;
+    font-family: "Rubik Mono One", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer a{
+    color: #738187;
+    text-decoration: none;
+    display: inline-block;
+}
+
+footer a:hover{
+    color:#9e9e9e;
+    text-decoration: underline;
+}
+
+#logofooter{
+    height: 100px;
+    width: 100px;
+    background-image: url(../IMAGENES/Pokebola-pokeball-png-0.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#logofooter:hover{
+
+    background-image: url(../IMAGENES/pokebola.png);
+    transition: 1s;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}

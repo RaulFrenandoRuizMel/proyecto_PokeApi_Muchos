@@ -1,0 +1,253 @@
+.fire
+{
+    background-color: rgb(255, 169, 40);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.fire1
+{
+    background-color: rgb(255, 169, 40);
+    padding: 4px;
+    border-radius: 2px;
+    background-size: contain;
+}
+
+.grass
+{
+    background-color: rgb(52, 159, 107);
+    padding: 4px;
+    border-radius: 2px;
+    border-radius: 10px;
+
+}
+
+.grass1
+{
+    background-color: rgba(0, 207, 107, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+    background-size: contain;
+}
+
+.water
+{
+    background-color: rgb(8, 65, 171);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.water1
+{
+    background-color: rgb(8, 65, 171, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+    background-size: contain;
+}
+
+.psychic
+{
+    background-color: rgb(81, 2, 150);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.psychic1
+{
+    background-color: rgb(81, 2, 150, 0.452);
+    padding: 4px;
+    border-radius: 2px;    
+    background-size: contain;
+}
+
+.steel
+{
+    background-color: rgb(77, 77, 77);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.steel1
+{
+    background-color: rgb(80, 80, 80, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+    background-size: contain;
+
+}
+
+.fighting
+{
+    background-color: rgb(150, 115, 2);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.fighting1
+{
+    background-color: rgb(150, 115, 2, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+        background-size: contain;
+
+}
+
+.poison
+{
+    background-color: rgb(81, 2, 150);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.poison1
+{
+    background-color: rgb(59, 10, 102, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+        background-size: contain;
+
+}
+
+.fairy
+{
+    background-color: rgb(241, 81, 255);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.fairy1
+{
+    background-color: rgb(241, 81, 255, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+    background-size: contain;
+
+
+}
+
+.dark
+{
+    background-color: rgb(30, 12, 46);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.dragon
+{
+    background-color: rgb(150, 115, 0);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.ghost
+{
+    background-color: rgb(170, 170, 170);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.rock
+{
+    background-color: rgb(65, 65, 65);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.bug
+{
+    background-color: rgb(102, 131, 0);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.flying
+{
+    background-color: rgb(81, 2, 150);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.ground
+{
+    background-color: rgb(81, 2, 150);
+    padding: 4px;
+    border-radius: 2px;
+        border-radius: 10px;
+
+}
+
+.dark1
+{
+    background-color: rgb(30, 12, 46, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.dragon1
+{
+    background-color: rgb(150, 115, 0, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.ghost1
+{
+    background-color: rgb(170, 170, 170, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.rock1
+{
+    background-color: rgb(65, 65, 65, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.bug1
+{
+    background-color: rgb(102, 131, 0, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.flying1
+{
+    background-color: rgb(81, 2, 150, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+}
+
+.ground1
+{
+    background-color: rgb(81, 2, 150, 0.452);
+    padding: 4px;
+    border-radius: 2px;
+}
+

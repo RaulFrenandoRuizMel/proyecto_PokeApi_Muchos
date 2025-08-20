@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 6em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+p {
+    font-size: 1em;
+    color: aliceblue;
+    margin: 0%;
+    font-family: fuentePokemon;
+}
+
+@font-face {
+    font-family: fuentePokemon;
+    src: url(/Fuentes/yourmate/Yourmate.ttf);
+}
+ul {
+    list-style: none;
+}
+
+a{
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.5em;
+}
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    display: inline-block;
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+#logo{
+    width: 25%;
+    height: 200px;
+    background-image: url(../IMAGENES/f5548916ca86b30f7b8f418e4c5c6794.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+#logo2{
+    width: 25%;
+    height: 200px;
+    background-image: url(../IMAGENES/dbv74i9-f4749710-d326-4af4-99a8-51f2140da180.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 3%;
+    display: inline-block;
+}
+
+#logo2:hover{
+
+    background-image: url(../IMAGENES/Ash-Ketchum-PNG-Free-Download.png);
+    transition: 0.5s;
+    margin-left: 50px;
+
+}
+#titulo{
+    height: 200px;
+    width: 35%;
+    display: inline-block;
+    margin-left: 2%;
+    background-image: url(../IMAGENES/International_Pokémon_logo.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+header {
+    background-color: #90e0ef;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+}
+
+main {
+    width: 100%;
+    margin: auto;
+    padding: 0px 40px 40px 40px;
+    background-image: url(../IMAGENES/pokemon-unite_3840x2160_xtrafondos.com.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-color: rgba(126, 126, 126, 0.638);
+    background-blend-mode: darken; /* o multiply, overlay según efecto */
+}
+
+#contenedorPokemon
+{    
+    display: inline-block;
+    justify-items: center;
+    width: 360px;
+    height: 506px;
+    margin-left: 37%;
+    padding: auto;
+    border-radius: 10%;
+    background-image: url(../IMAGENES/electric.png);
+    background-size: contain;
+}
+
+#Pokemon
+{
+    width: 30%;
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-bottom: 5px;
+    color: black;
+    
+}
+#Pokemon p
+{
+    color: black;
+}
+
+#tipo_pokemon
+{
+    width: 45%;
+    border-radius: 10%;
+    background-color: rgb(161, 0, 0);
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+#tipo_pokemon div, 
+#tipo_pokemon p {
+    display: inline;
+    margin: 0;
+}
+
+#height
+{
+    width: 30%;
+    border-radius: 10%;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#height p {
+    display: inline;
+    margin: 0;
+}
+#height p
+{
+    color: black;
+}
+
+#peso_Pokemon
+{
+    width: 30%;
+    border-radius: 10%;
+    background-color: rgb(161, 0, 0);
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#Pokemon, #tipo_pokemon, #height, #peso_Pokemon, #contenedor_audio {
+    margin-top: 0%;
+    margin-left: 8%;
+    float: left;
+    border-radius: 10px;
+}
+
+audio
+{
+    width: 250px;
+    height: 54px;
+}
+
+img
+{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+#separador_Imagen
+{
+    width: 80%;
+    height: 52%;
+    margin-left: 10%;
+}
