@@ -4,15 +4,27 @@
     });
 });*/
 
+const Plantilla_contenedor = document.querySelector(".contenedorPokemon");
+
+const body = document.querySelector("body");
+
+for(i=0; i<1024; i++)
+{
+    var clon = Plantilla_contenedor.cloneNode(true);
+    body.appendChild(clon);
+}
+
+const arreglo_pokemons = document.querySelectorAll(".contenedorPokemon");
+
+for(i=0; i<arreglo_pokemons.length; i++)
+{
 const input_buscar = document.querySelector("input");
 const button_buscar = document.querySelector("button");
 
-button_buscar.addEventListener("click", function(){
-    fetch("https://pokeapi.co/api/v2/pokemon/" + input_buscar.value).then(recurso => recurso.json()).then(pokemon=>{
+    fetch("https://pokeapi.co/api/v2/pokemon/"+ (i + 1)).then(recurso => recurso.json()).then(pokemon => {
+        
         console.log(pokemon); //obtiene el recurso de la pokeapi, lo convierte en .JSON de forma directa y despues lo imprime en la consola
     
-       
-        
         const numero_pokemon = arreglo_pokemons[pokemon.id-1].querySelector(".numero_pokemon");
         numero_pokemon.innerHTML ="<p>" + "Numero: "+ pokemon.id + "</p>";
     
@@ -52,5 +64,6 @@ button_buscar.addEventListener("click", function(){
 
         const Separador_Imagen = document.querySelector("#separador_Imagen");
         Separador_Imagen.style.display = "none"
-    })
     });
+}
+

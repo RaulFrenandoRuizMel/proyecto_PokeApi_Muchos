@@ -96,6 +96,7 @@ header {
 
 main {
     width: 100%;
+    height: auto;
     margin: auto;
     padding: 0px 40px 40px 40px;
     background-image: url(../IMAGENES/pokemon-unite_3840x2160_xtrafondos.com.jpg);
@@ -201,4 +202,11 @@ img
     width: 80%;
     height: 52%;
     margin-left: 10%;
+}
+
+.cartasPokemon
+{
+    width: 100%;
+    display: flex;
+    height: auto;
 }
