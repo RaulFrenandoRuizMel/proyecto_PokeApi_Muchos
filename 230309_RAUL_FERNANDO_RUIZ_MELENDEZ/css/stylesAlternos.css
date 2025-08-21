@@ -9,7 +9,7 @@
 
 .fire1
 {
-    background-color: rgb(255, 169, 40);
+    background-color: rgba(255, 169, 40, 0.452);
     padding: 4px;
     border-radius: 2px;
     background-size: contain;
@@ -43,7 +43,7 @@
 
 .water1
 {
-    background-color: rgb(8, 65, 171, 0.452);
+    background-color: rgba(8, 65, 171, 0.452);
     padding: 4px;
     border-radius: 2px;
     background-size: contain;
@@ -60,7 +60,7 @@
 
 .psychic1
 {
-    background-color: rgb(81, 2, 150, 0.452);
+    background-color: rgba(81, 2, 150, 0.452);
     padding: 4px;
     border-radius: 2px;    
     background-size: contain;
@@ -77,7 +77,7 @@
 
 .steel1
 {
-    background-color: rgb(80, 80, 80, 0.452);
+    background-color: rgba(80, 80, 80, 0.452);
     padding: 4px;
     border-radius: 2px;
     background-size: contain;
@@ -95,7 +95,7 @@
 
 .fighting1
 {
-    background-color: rgb(150, 115, 2, 0.452);
+    background-color: rgba(150, 115, 2, 0.452);
     padding: 4px;
     border-radius: 2px;
         background-size: contain;
@@ -113,7 +113,7 @@
 
 .poison1
 {
-    background-color: rgb(59, 10, 102, 0.452);
+    background-color: rgba(59, 10, 102, 0.452);
     padding: 4px;
     border-radius: 2px;
         background-size: contain;
@@ -131,7 +131,7 @@
 
 .fairy1
 {
-    background-color: rgb(241, 81, 255, 0.452);
+    background-color: rgba(241, 81, 255, 0.452);
     padding: 4px;
     border-radius: 2px;
     background-size: contain;
@@ -165,6 +165,8 @@
         border-radius: 10px;
 
 }
+
+
 
 .rock
 {
@@ -204,49 +206,52 @@
 
 .dark1
 {
-    background-color: rgb(30, 12, 46, 0.452);
+    background-color: rgba(30, 12, 46, 0.452);
     padding: 4px;
     border-radius: 2px;
 }
 
 .dragon1
 {
-    background-color: rgb(150, 115, 0, 0.452);
+    background-color: rgba(150, 115, 0, 0.452);
     padding: 4px;
     border-radius: 2px;
 }
 
 .ghost1
 {
-    background-color: rgb(170, 170, 170, 0.452);
+
+    background-color: rgba(81, 2, 150, 0.452);
     padding: 4px;
-    border-radius: 2px;
+    border-radius: 2px;    
+    background-size: contain;
 }
+
 
 .rock1
 {
-    background-color: rgb(65, 65, 65, 0.452);
+    background-color: rgba(65, 65, 65, 0.452);
     padding: 4px;
     border-radius: 2px;
 }
 
 .bug1
 {
-    background-color: rgb(102, 131, 0, 0.452);
+    background-color: rgba(102, 131, 0, 0.452);
     padding: 4px;
     border-radius: 2px;
 }
 
 .flying1
 {
-    background-color: rgb(81, 2, 150, 0.452);
+    background-color: rgba(81, 2, 150, 0.452);
     padding: 4px;
     border-radius: 2px;
 }
 
 .ground1
 {
-    background-color: rgb(81, 2, 150, 0.452);
+    background-color: rgba(81, 2, 150, 0.452);
     padding: 4px;
     border-radius: 2px;
 }
